@@ -1,25 +1,22 @@
-# nvim-config
+# Neovim configuration
 
-Modulare Neovim-IDE mit vendorten Plugins, nativer LSP-Anbindung und optionalen
-Sprachwerkzeugen. Kein Plugin-Download beim ersten Start erforderlich.
+Modular Neovim IDE with vendored plugins, native LSP integration and optional language tools. No plugin download on first start.
 
-**[Vollständige Dokumentation](https://aco-nvim.readthedocs.io/en/latest/)** ·
-[Arch-Paket](https://aco-nvim.readthedocs.io/en/latest/packages/) ·
+**[Full documentation](https://aco-nvim.readthedocs.io/en/latest/)** ·
+[Arch package](https://aco-nvim.readthedocs.io/en/latest/packages/) ·
 [Keymaps](https://aco-nvim.readthedocs.io/en/latest/keymaps/) ·
-[Entwicklung](https://aco-nvim.readthedocs.io/en/latest/development/)
+[Development](https://aco-nvim.readthedocs.io/en/latest/development/) ·
+[Design & dependencies](https://aco-nvim.readthedocs.io/en/latest/design/)
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Akademie-Olympia/aco-arch-dotfiles/main/install.sh | bash -s -- nvim
 ```
 
-Paket: `aco-arch-dotfiles-nvim`. Einstieg: `~/.config/nvim/init.lua`.
-Das Handbuch beschreibt auch Standalone-Installation, Plattformen und optionale
-LSP-/Formatter-/Debugger-Werkzeuge. Diagnose: `:NvimConfigHealth`.
-
-Dieses Repository wird unabhängig gepflegt. Auf `main` pushen; nach erfolgreichem
-Registry-Build mit `sudo pacman -Syu` aktualisieren. [PACKAGING.md](PACKAGING.md).
+Package: `aco-arch-dotfiles-nvim`. Entry point: `~/.config/nvim/init.lua`.
+The manual also covers standalone installation, platforms and optional LSP/formatter/debugger tools. Diagnostics: `:NvimConfigHealth`.
+Develop independently in this repository and push to `main`; after a successful registry build update with `sudo pacman -Syu`. Local builds: [PACKAGING.md](PACKAGING.md).
 
 [![CI](https://github.com/Akademie-Olympia/aco-nvim/actions/workflows/ci.yml/badge.svg)](https://github.com/Akademie-Olympia/aco-nvim/actions/workflows/ci.yml)
 [![Package safety](https://github.com/Akademie-Olympia/aco-nvim/actions/workflows/package.yml/badge.svg)](https://github.com/Akademie-Olympia/aco-nvim/actions/workflows/package.yml)
 
-[MIT-Lizenz](LICENSE); vendorte Plugins behalten ihre jeweiligen Lizenzen.
+[MIT licence](LICENSE); vendored plugins keep their respective licences.
