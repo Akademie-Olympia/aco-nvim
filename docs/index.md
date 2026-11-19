@@ -1,7 +1,7 @@
 # nvim-config
 
-[![Docs](https://readthedocs.org/projects/nvim-config/badge/?version=latest)](https://nvim-config.readthedocs.io/en/latest/)
-[![Dotfiles Hub](https://img.shields.io/badge/ecosystem-arch--dotfiles-1793D1?logo=arch-linux&logoColor=white)](https://arch-dotfiles.readthedocs.io/en/latest/)
+[![Docs](https://readthedocs.org/projects/aco-nvim/badge/?version=latest)](https://aco-nvim.readthedocs.io/en/latest/)
+[![Dotfiles Hub](https://img.shields.io/badge/ecosystem-arch--dotfiles-1793D1?logo=arch-linux&logoColor=white)](https://aco-arch-dotfiles.readthedocs.io/en/latest/)
 [![Neovim 0.12+](https://img.shields.io/badge/Neovim-0.12%2B-57A143?logo=neovim&logoColor=white)](https://neovim.io/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Akademie-Olympia/aco-nvim/blob/main/LICENSE)
 
@@ -12,7 +12,7 @@ distribution (LazyVim, NvChad, AstroNvim, LunarVim, SpaceVim) is used
 anywhere in this repository.
 
 :::{note}
-**Part of the Arch Dotfiles Ecosystem**: Built for **Arch Linux** as part of [`arch-dotfiles`](https://arch-dotfiles.readthedocs.io/en/latest/),
+**Part of the ACO Arch Dotfiles Ecosystem**: Built for **Arch Linux** as part of [`aco-arch-dotfiles`](https://aco-arch-dotfiles.readthedocs.io/en/latest/),
 this Neovim configuration is designed to be completely modular and beginner-friendly, with every setting,
 keymap, and custom command documented so that anyone can install it on Arch Linux
 or run it standalone on any Linux distribution, macOS, or Windows.
@@ -85,11 +85,11 @@ license
 :caption: Related documentation
 :hidden:
 
-Arch Dotfiles (main hub) <https://arch-dotfiles.readthedocs.io/en/latest/>
-tmux (tmux-config) <https://tmux-config.readthedocs.io/en/latest/>
-Ghostty (ghostty-config) <https://ghostty-config.readthedocs.io/en/latest/>
-Kitty (kitty-config) <https://kitty-config.readthedocs.io/en/latest/>
-Vim (vim-config) <https://vim-config.readthedocs.io/en/latest/>
+ACO Arch Dotfiles (main hub) <https://aco-arch-dotfiles.readthedocs.io/en/latest/>
+tmux (tmux-config) <https://aco-tmux.readthedocs.io/en/latest/>
+Ghostty (ghostty-config) <https://aco-ghostty.readthedocs.io/en/latest/>
+Kitty (kitty-config) <https://aco-kitty.readthedocs.io/en/latest/>
+Vim (vim-config) <https://aco-vim.readthedocs.io/en/latest/>
 ```
 
 ## The five-second version
@@ -110,7 +110,7 @@ what's missing.
 
 This Neovim setup is built to integrate seamlessly with the sibling configurations:
 
-- **[Arch Dotfiles Hub (`arch-dotfiles`)](https://arch-dotfiles.readthedocs.io/en/latest/)**: Installer and signed Pacman registry for independent configuration repositories; update with `pacman -Syu` or `adot update`.
-- **[tmux-config](https://tmux-config.readthedocs.io/en/latest/)**: Navigates panes seamlessly with Neovim splits using `Ctrl+h/j/k/l`.
-- **[ghostty-config](https://ghostty-config.readthedocs.io/en/latest/)** & **[kitty-config](https://kitty-config.readthedocs.io/en/latest/)**: Fast GPU terminals matching the Catppuccin Mocha theme.
-- **[vim-config](https://vim-config.readthedocs.io/en/latest/)**: Zero-dependency standalone Vim configuration mirroring Neovim's leader keys and navigation.
+- **[ACO Arch Dotfiles Hub (`aco-arch-dotfiles`)](https://aco-arch-dotfiles.readthedocs.io/en/latest/)**: Installer and signed Pacman registry for independent configuration repositories; update with `pacman -Syu` or `aco update`.
+- **[tmux-config](https://aco-tmux.readthedocs.io/en/latest/)**: Navigates panes seamlessly with Neovim splits using `Ctrl+h/j/k/l`.
+- **[ghostty-config](https://aco-ghostty.readthedocs.io/en/latest/)** & **[kitty-config](https://aco-kitty.readthedocs.io/en/latest/)**: Fast GPU terminals matching the Catppuccin Mocha theme.
+- **[vim-config](https://aco-vim.readthedocs.io/en/latest/)**: Zero-dependency standalone Vim configuration mirroring Neovim's leader keys and navigation.

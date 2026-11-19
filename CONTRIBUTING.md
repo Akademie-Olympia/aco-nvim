@@ -70,7 +70,7 @@ tagged version:
    versions automatically.
 2. In the project's _Versions_ page, activate the tag you want published.
 3. Optionally set that version as the project default, so
-   `nvim-config.readthedocs.io` lands on the stable docs instead of
+   `aco-nvim.readthedocs.io` lands on the stable docs instead of
    `latest`.
 
 This matters more here than for most projects: because plugins are

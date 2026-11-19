@@ -3,16 +3,16 @@
 Modulare Neovim-IDE mit vendorten Plugins, nativer LSP-Anbindung und optionalen
 Sprachwerkzeugen. Kein Plugin-Download beim ersten Start erforderlich.
 
-**[Vollständige Dokumentation](https://nvim-config.readthedocs.io/en/latest/)** ·
-[Arch-Paket](https://nvim-config.readthedocs.io/en/latest/packages/) ·
-[Keymaps](https://nvim-config.readthedocs.io/en/latest/keymaps/) ·
-[Entwicklung](https://nvim-config.readthedocs.io/en/latest/development/)
+**[Vollständige Dokumentation](https://aco-nvim.readthedocs.io/en/latest/)** ·
+[Arch-Paket](https://aco-nvim.readthedocs.io/en/latest/packages/) ·
+[Keymaps](https://aco-nvim.readthedocs.io/en/latest/keymaps/) ·
+[Entwicklung](https://aco-nvim.readthedocs.io/en/latest/development/)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Akademie-Olympia/aco-dotfiles/main/install.sh | bash -s -- nvim
+curl -fsSL https://raw.githubusercontent.com/Akademie-Olympia/aco-arch-dotfiles/main/install.sh | bash -s -- nvim
 ```
 
-Paket: `arch-dotfiles-nvim`. Einstieg: `~/.config/nvim/init.lua`.
+Paket: `aco-arch-dotfiles-nvim`. Einstieg: `~/.config/nvim/init.lua`.
 Das Handbuch beschreibt auch Standalone-Installation, Plattformen und optionale
 LSP-/Formatter-/Debugger-Werkzeuge. Diagnose: `:NvimConfigHealth`.
 
