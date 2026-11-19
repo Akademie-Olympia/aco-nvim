@@ -31,6 +31,7 @@ Then dig into whichever part you need:
 :maxdepth: 1
 :caption: Getting started
 
+design
 installation
 packages
 quickstart
