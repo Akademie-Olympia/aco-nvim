@@ -47,7 +47,7 @@ myst_heading_anchors = 3
 html_theme = "furo"
 html_title = "nvim-config docs"
 html_theme_options = {
-    "source_repository": "https://github.com/MichaelWeissDEV/nvim-config",
+    "source_repository": "https://github.com/Akademie-Olympia/aco-nvim",
     "source_branch": "main",
     "source_directory": "docs/",
     "light_css_variables": {

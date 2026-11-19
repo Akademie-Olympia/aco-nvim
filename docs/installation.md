@@ -50,14 +50,14 @@ touches your data or state directories.
 ## Clone
 
 ```bash
-git clone https://github.com/MichaelWeissDEV/nvim-config.git ~/.config/nvim
+git clone https://github.com/Akademie-Olympia/aco-nvim.git ~/.config/nvim
 nvim
 ```
 
 Over SSH instead:
 
 ```bash
-git clone git@github.com:MichaelWeissDEV/nvim-config.git ~/.config/nvim
+git clone git@github.com:Akademie-Olympia/aco-nvim.git ~/.config/nvim
 ```
 
 On Linux and macOS, Neovim reads its config from `$XDG_CONFIG_HOME/nvim`
@@ -66,7 +66,7 @@ On Linux and macOS, Neovim reads its config from `$XDG_CONFIG_HOME/nvim`
 symlink it into place instead of cloning twice:
 
 ```bash
-git clone https://github.com/MichaelWeissDEV/nvim-config.git ~/git/nvim-config
+git clone https://github.com/Akademie-Olympia/aco-nvim.git ~/git/nvim-config
 ln -s ~/git/nvim-config ~/.config/nvim
 ```
 

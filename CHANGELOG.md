@@ -350,6 +350,6 @@ The entries below describe what was built for this tag.
   literal characters, after the literals were found to have been silently
   stripped to empty strings.
 
-[Unreleased]: https://github.com/MichaelWeissDEV/nvim-config/compare/v0.1.1...HEAD
-[0.1.1]: https://github.com/MichaelWeissDEV/nvim-config/compare/v0.1.0...v0.1.1
-[0.1.0]: https://github.com/MichaelWeissDEV/nvim-config/releases/tag/v0.1.0
+[Unreleased]: https://github.com/Akademie-Olympia/aco-nvim/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/Akademie-Olympia/aco-nvim/compare/v0.1.0...v0.1.1
+[0.1.0]: https://github.com/Akademie-Olympia/aco-nvim/releases/tag/v0.1.0

@@ -4,7 +4,7 @@ pkgver=0.3.0
 pkgrel=1
 pkgdesc='Neovim configuration with vendored plugins'
 arch=('any')
-url='https://github.com/MichaelWeissDEV/dotfiles'
+url='https://github.com/Akademie-Olympia/aco-dotfiles'
 license=('LicenseRef-arch-dotfiles-bundle')
 depends=('arch-dotfiles-core>=0.3.0' 'neovim>=0.12.0' 'git' 'ripgrep' 'fd' 'fzf' 'curl' 'tar' 'gzip' 'unzip')
 optdepends=('base-devel: compile optional parsers' 'nodejs: optional language tools' 'npm: optional Mason tools' 'python-pip: optional Python tools')

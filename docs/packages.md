@@ -1,7 +1,7 @@
 # Arch package and automatic updates
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/MichaelWeissDEV/dotfiles/main/install.sh | bash -s -- nvim
+curl -fsSL https://raw.githubusercontent.com/Akademie-Olympia/aco-dotfiles/main/install.sh | bash -s -- nvim
 ```
 
 This installs `arch-dotfiles-nvim`, Neovim and declared dependencies, backs up

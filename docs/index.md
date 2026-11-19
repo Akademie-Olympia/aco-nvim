@@ -3,7 +3,7 @@
 [![Docs](https://readthedocs.org/projects/nvim-config/badge/?version=latest)](https://nvim-config.readthedocs.io/en/latest/)
 [![Dotfiles Hub](https://img.shields.io/badge/ecosystem-arch--dotfiles-1793D1?logo=arch-linux&logoColor=white)](https://arch-dotfiles.readthedocs.io/en/latest/)
 [![Neovim 0.12+](https://img.shields.io/badge/Neovim-0.12%2B-57A143?logo=neovim&logoColor=white)](https://neovim.io/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/MichaelWeissDEV/nvim-config/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Akademie-Olympia/aco-nvim/blob/main/LICENSE)
 
 A from-scratch, fully documented Neovim configuration for practically every
 commonly used programming language — fast, quiet, modular, portable, and
@@ -95,7 +95,7 @@ Vim (vim-config) <https://vim-config.readthedocs.io/en/latest/>
 ## The five-second version
 
 ```bash
-git clone https://github.com/MichaelWeissDEV/nvim-config.git ~/.config/nvim
+git clone https://github.com/Akademie-Olympia/aco-nvim.git ~/.config/nvim
 nvim
 ```
 
