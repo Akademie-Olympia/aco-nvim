@@ -1,32 +1,13 @@
--- Colours follow the shared ACO theme (aco-theme) when it is installed: its
--- palette is mapped onto catppuccin, which keeps every plugin integration.
--- Without it (for example on a server) plain catppuccin mocha is used.
+-- Colours follow the shared ACO theme: colors/aco.lua reads the palette that
+-- aco-theme renders and falls back to Neovim's built-in scheme without it.
+-- aco-theme/reload.sh calls apply() in every running Neovim after a change.
 local M = {}
 
-local palette_file = (vim.env.XDG_CONFIG_HOME or (vim.env.HOME .. "/.config")) .. "/aco/theme/nvim/palette.lua"
-
 function M.apply()
-  local ok, aco = pcall(dofile, palette_file)
-  local flavour = (ok and aco.mode == "light") and "latte" or "mocha"
-  require("catppuccin").setup({
-    flavour = flavour,
-    color_overrides = ok and { [flavour] = aco.colors } or {},
-    integrations = {
-      cmp = true,
-      gitsigns = true,
-      telescope = true,
-      treesitter = true,
-      which_key = true,
-      mason = true,
-      dap = true,
-      dap_ui = true,
-      native_lsp = { enabled = true },
-    },
-  })
-  vim.o.background = flavour == "latte" and "light" or "dark"
-  vim.cmd.colorscheme("catppuccin")
-  -- lualine caches its theme at setup; rebuild it from the current config.
+  vim.cmd.colorscheme("aco")
+  -- lualine caches its theme at setup; rebuild it from the current palette.
   if package.loaded.lualine then
+    package.loaded["lualine.themes.aco"] = nil
     local lualine = require("lualine")
     lualine.setup(lualine.get_config())
   end

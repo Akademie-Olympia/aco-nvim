@@ -12,7 +12,6 @@ root), which does **not** extend to these plugins.
 
 | Plugin | License | License file |
 |---|---|---|
-| catppuccin | MIT | `LICENSE.md` |
 | cmp-buffer | MIT | `LICENSE` |
 | cmp-cmdline | MIT | `LICENSE` |
 | cmp-nvim-lsp | MIT | `LICENSE` |

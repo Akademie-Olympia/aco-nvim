@@ -1,7 +1,6 @@
 name	url	branch	prefix	load_type	trigger
 plenary.nvim	https://github.com/nvim-lua/plenary.nvim.git	master	pack/vendor/start/plenary.nvim	start	always (library dependency)
 nvim-web-devicons	https://github.com/nvim-tree/nvim-web-devicons.git	master	pack/vendor/start/nvim-web-devicons	start	always
-catppuccin	https://github.com/catppuccin/nvim.git	main	pack/vendor/start/catppuccin	start	always (colorscheme)
 nvim-treesitter	https://github.com/nvim-treesitter/nvim-treesitter.git	main	pack/vendor/start/nvim-treesitter	start	always (does not support lazy-loading)
 nvim-cmp	https://github.com/hrsh7th/nvim-cmp.git	main	pack/vendor/start/nvim-cmp	start	always (insert-mode completion)
 cmp-nvim-lsp	https://github.com/hrsh7th/cmp-nvim-lsp.git	main	pack/vendor/start/cmp-nvim-lsp	start	always

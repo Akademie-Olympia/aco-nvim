@@ -51,9 +51,8 @@ vim.api.nvim_create_autocmd("BufWipeout", {
 
 require("lualine").setup({
   options = {
-    -- "catppuccin-nvim" follows the flavour chosen in plugins/theme.lua
-    -- (mocha or latte, depending on the ACO light/dark mode).
-    theme = "catppuccin-nvim",
+    -- lua/lualine/themes/aco.lua, built from the ACO palette.
+    theme = "aco",
     component_separators = { left = "│", right = "│" },
     section_separators = { left = "", right = "" },
     globalstatus = true,

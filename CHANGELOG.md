@@ -18,6 +18,12 @@ are not listed individually — see `git log -- pack/vendor/` for those.
 
 ## [Unreleased]
 
+### Changed
+
+- The colour scheme is now `aco` (`colors/aco.lua`, plus the lualine theme `aco`), built directly from the
+  aco-theme palette. The vendored catppuccin plugin is removed; without aco-theme Neovim's built-in
+  `default` scheme is used instead of catppuccin mocha.
+
 ### Fixed
 
 - Removed three stale `gitlink` entries under `pack/vendor/start/LuaSnip/deps/`

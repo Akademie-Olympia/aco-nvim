@@ -10,16 +10,13 @@ a minute.
 
 ## What the editor looks like out of the box
 
-**Colour scheme: [catppuccin](https://github.com/catppuccin/nvim) with the
-ACO palette** (`plugins/theme.lua`). With aco-theme installed, the generated
-`~/.config/aco/theme/nvim/palette.lua` is mapped onto catppuccin's colour names
-and the flavour follows light/dark (`latte` or `mocha`); running Neovims switch
-live when the theme changes. Without aco-theme plain `mocha` is used. It is vendored under
-`pack/vendor/start/`, so it applies at startup with no download and no
-flash of the default colours. Its integrations are enabled explicitly —
-`cmp`, `gitsigns`, `telescope`, `treesitter`, `which_key`, `mason`, `dap`,
-`dap_ui` and `native_lsp` — rather than left on "auto", so a plugin that
-gets added later does not silently start theming itself differently.
+**Colour scheme: `aco`** (`colors/aco.lua`, applied by `plugins/theme.lua`). It reads the palette that
+aco-theme renders to `~/.config/aco/theme/nvim/palette.lua`, so light/dark and the accent colour match the rest
+of the desktop, and running Neovims switch live when the theme changes. Roles: keywords purple, functions blue,
+types cyan, strings green, numbers and constants orange; the accent marks the cursor line number, search and the
+selection. The scheme also styles the plugins this config ships (cmp, gitsigns, telescope, which-key, nvim-tree,
+Mason, Trouble, oil, nvim-dap) and the `:terminal` colours. Without aco-theme (for example on a server) Neovim's
+built-in `default` scheme is used. No colour-scheme plugin is needed.
 
 **Statusline: [lualine](https://github.com/nvim-lualine/lualine.nvim)**
 (`plugins/statusline.lua`), with `globalstatus = true`. Combined with
@@ -38,9 +35,8 @@ with one level of parent directory (`path = 1`), which is enough to tell
 `src/main.rs` from `tests/main.rs` without printing the whole path.
 
 ```{note}
-lualine's theme is `"catppuccin-nvim"`, which follows whichever flavour
-`plugins/theme.lua` set. The short name `"catppuccin"` does not exist — lualine
-silently falls back to `auto` and emits a one-time `:LualineNotices` warning.
+lualine's theme is `"aco"` (`lua/lualine/themes/aco.lua`): the mode badge uses the accent in normal mode and a
+palette colour in the other modes; without aco-theme it falls back to `"auto"`.
 ```
 
 **Keymap popup: [which-key](https://github.com/folke/which-key.nvim)**
@@ -85,7 +81,7 @@ From `lua/config/options.lua`:
 | `pumheight` | `12` | the completion popup cannot swallow the screen |
 | `splitbelow` / `splitright` | on | new splits appear where the eye already is |
 | `inccommand` | `"split"` | `:%s/…` previews its own result live in a split |
-| `termguicolors` | on | 24-bit colour, required by catppuccin |
+| `termguicolors` | on | 24-bit colour, required by the `aco` colour scheme |
 
 `signcolumn = "yes"` is the one people most often turn off and then regret:
 with `"auto"` the whole buffer jumps one column to the right the instant a
