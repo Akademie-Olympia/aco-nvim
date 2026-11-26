@@ -10,8 +10,11 @@ a minute.
 
 ## What the editor looks like out of the box
 
-**Colour scheme: [catppuccin](https://github.com/catppuccin/nvim), flavour
-`mocha`** (`plugins/theme.lua`). It is vendored under
+**Colour scheme: [catppuccin](https://github.com/catppuccin/nvim) with the
+ACO palette** (`plugins/theme.lua`). With aco-theme installed, the generated
+`~/.config/aco/theme/nvim/palette.lua` is mapped onto catppuccin's colour names
+and the flavour follows light/dark (`latte` or `mocha`); running Neovims switch
+live when the theme changes. Without aco-theme plain `mocha` is used. It is vendored under
 `pack/vendor/start/`, so it applies at startup with no download and no
 flash of the default colours. Its integrations are enabled explicitly —
 `cmp`, `gitsigns`, `telescope`, `treesitter`, `which_key`, `mason`, `dap`,
@@ -35,10 +38,9 @@ with one level of parent directory (`path = 1`), which is enough to tell
 `src/main.rs` from `tests/main.rs` without printing the whole path.
 
 ```{note}
-lualine's theme is set to `"catppuccin-mocha"`, not `"catppuccin"`. The
-short name does not error — lualine silently falls back to `auto` and
-emits a one-time `:LualineNotices` warning. If you change the flavour in
-`plugins/theme.lua`, change it here too.
+lualine's theme is `"catppuccin-nvim"`, which follows whichever flavour
+`plugins/theme.lua` set. The short name `"catppuccin"` does not exist — lualine
+silently falls back to `auto` and emits a one-time `:LualineNotices` warning.
 ```
 
 **Keymap popup: [which-key](https://github.com/folke/which-key.nvim)**

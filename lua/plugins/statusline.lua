@@ -51,12 +51,9 @@ vim.api.nvim_create_autocmd("BufWipeout", {
 
 require("lualine").setup({
   options = {
-    -- catppuccin ships its lualine theme as "catppuccin-<flavour>", not
-    -- plain "catppuccin" -- using the wrong name doesn't error, it just
-    -- makes lualine silently fall back to "auto" and emit a one-time
-    -- ":LualineNotices" warning at startup. Keep this in sync with the
-    -- flavour set in plugins/theme.lua.
-    theme = "catppuccin-mocha",
+    -- "catppuccin-nvim" follows the flavour chosen in plugins/theme.lua
+    -- (mocha or latte, depending on the ACO light/dark mode).
+    theme = "catppuccin-nvim",
     component_separators = { left = "│", right = "│" },
     section_separators = { left = "", right = "" },
     globalstatus = true,

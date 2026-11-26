@@ -7,7 +7,7 @@ arch=('any')
 url='https://github.com/Akademie-Olympia/aco-arch-dotfiles'
 license=('LicenseRef-arch-dotfiles-bundle')
 depends=('aco-arch-dotfiles-core>=0.3.0' 'neovim>=0.12.0' 'git' 'ripgrep' 'fd' 'fzf' 'curl' 'tar' 'gzip' 'unzip')
-optdepends=('base-devel: compile optional parsers' 'nodejs: optional language tools' 'npm: optional Mason tools' 'python-pip: optional Python tools' 'wl-clipboard: system clipboard on Wayland')
+optdepends=('aco-arch-dotfiles-aco-theme: colours follow the desktop theme' 'base-devel: compile optional parsers' 'nodejs: optional language tools' 'npm: optional Mason tools' 'python-pip: optional Python tools' 'wl-clipboard: system clipboard on Wayland')
 replaces=('arch-dotfiles-nvim')
 conflicts=('arch-dotfiles-nvim')
 options=('!strip')

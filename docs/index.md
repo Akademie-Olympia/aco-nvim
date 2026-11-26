@@ -113,5 +113,5 @@ This Neovim setup is built to integrate seamlessly with the sibling configuratio
 
 - **[ACO Arch Dotfiles Hub (`aco-arch-dotfiles`)](https://aco-arch-dotfiles.readthedocs.io/en/latest/)**: Installer and signed Pacman registry for independent configuration repositories; update with `pacman -Syu` or `aco update`.
 - **[tmux-config](https://aco-tmux.readthedocs.io/en/latest/)**: Navigates panes seamlessly with Neovim splits using `Ctrl+h/j/k/l`.
-- **[ghostty-config](https://aco-ghostty.readthedocs.io/en/latest/)** & **[kitty-config](https://aco-kitty.readthedocs.io/en/latest/)**: Fast GPU terminals matching the Catppuccin Mocha theme.
+- **[ghostty-config](https://aco-ghostty.readthedocs.io/en/latest/)** & **[kitty-config](https://aco-kitty.readthedocs.io/en/latest/)**: Fast GPU terminals matching the aco-theme colours.
 - **[vim-config](https://aco-vim.readthedocs.io/en/latest/)**: Zero-dependency standalone Vim configuration mirroring Neovim's leader keys and navigation.
