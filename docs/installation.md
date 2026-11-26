@@ -82,7 +82,7 @@ nvim
 
 should start in well under a second, with:
 
-- the ACO colours (or catppuccin mocha without aco-theme) and the statusline active,
+- the ACO colours (or Neovim's default scheme without aco-theme) and the statusline active,
 - no error messages and no notifications (a few informational ones the
   first time only if e.g. `ripgrep` truly isn't installed — see
   {doc}`troubleshooting` if you see anything alarming),

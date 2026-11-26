@@ -10,7 +10,6 @@ All plugins are vendored in-repo via `git subtree` (see `scripts/plugins.tsv` / 
 |---|---|---|
 | plenary.nvim | https://github.com/nvim-lua/plenary.nvim | always (library dependency) |
 | nvim-web-devicons | https://github.com/nvim-tree/nvim-web-devicons | always |
-| catppuccin | https://github.com/catppuccin/nvim | always (colorscheme) |
 | nvim-treesitter | https://github.com/nvim-treesitter/nvim-treesitter | always (does not support lazy-loading) |
 | nvim-cmp | https://github.com/hrsh7th/nvim-cmp | always (insert-mode completion) |
 | cmp-nvim-lsp | https://github.com/hrsh7th/cmp-nvim-lsp | always |

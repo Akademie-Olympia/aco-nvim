@@ -53,7 +53,6 @@ Optional:
 | Plugin | Source | Pinned commit | Loaded |
 | --- | --- | --- | --- |
 | LuaSnip | <https://github.com/L3MON4D3/LuaSnip> | `0abc8f3` | at startup |
-| catppuccin | <https://github.com/catppuccin/nvim> | `edefef7` | at startup |
 | cmp-buffer | <https://github.com/hrsh7th/cmp-buffer> | `b74fab3` | at startup |
 | cmp-cmdline | <https://github.com/hrsh7th/cmp-cmdline> | `d126061` | at startup |
 | cmp-nvim-lsp | <https://github.com/hrsh7th/cmp-nvim-lsp> | `cbc7b02` | at startup |

@@ -9,7 +9,6 @@ local M = {}
 local START = {
   "plenary.nvim",
   "nvim-web-devicons",
-  "catppuccin",
   "nvim-treesitter",
   "nvim-cmp",
   "cmp-nvim-lsp",
